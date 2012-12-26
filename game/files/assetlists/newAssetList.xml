@@ -1,0 +1,131 @@
+<!-- 
+Stores the asset name, and any additional information it may wish
+to provide within a map. There is no data type specified within
+this page, as it is assumed that the same file location, and 
+additional information COULD be used for more than one type
+of resource. 
+
+
+NOTE :: When I have time i need to modify xstream to 'prettify'
+this xml, so that it doesn't say <map><entry> but instead
+<assetlist><asset> for instance
+
+Author Alan Foster
+Version 1.0
+see GameAssetManager
+-->
+<map>
+	<!-- new asset -->
+	<entry>
+		<!-- Asset name -->
+		<string>crosshair</string>
+		<!-- Additional list of information that may be
+			required for the factory that creates this object -->
+		<map>
+			<!-- NEEDED (as of 02/11/2011) 
+				However, it should be noted that a factory does not
+				'need' to make use of it, but i'm declaring that as
+				of now, it should be added. 
+				-->
+			<entry>
+				<string>fileLocation</string>
+				<string>/files/images/crosshair.png</string>
+			</entry>
+			<!-- additional information that may be required within
+				or used within the factory that creates this object
+				-->
+			<entry>
+				<string>additional</string>
+				<string>fooBar</string>
+			</entry>
+		</map>
+	</entry>
+	<!-- end new asset -->
+
+
+	<!--###################### END GRASS map tiles ##################################-->
+	<entry>
+		<string>tiles_brick</string>
+		<map>
+			<entry>
+				<string>fileLocation</string>
+				<string>/files/images/tiles_brick.png</string>
+			</entry>
+		</map>
+	</entry>
+
+	<entry>
+		<string>tiles_ground</string>
+		<map>
+			<entry>
+				<string>fileLocation</string>
+				<string>/files/images/tiles_dirt.png</string>
+			</entry>
+		</map>
+	</entry> 
+ 
+
+	<!--####################### Map related info  #######################-->
+	<entry>
+		<string>levelOneMapDetails</string>
+		<map>
+			<entry>
+				<string>fileLocation</string>
+				<string>/files/images/map.png</string>
+			</entry>
+		</map>
+	</entry>
+
+	<entry>
+		<string>enemySpawnMap</string>
+		<map>
+			<entry>
+				<string>fileLocation</string>
+				<string>/files/images/enemySpawnMap.png</string>
+			</entry>
+		</map>
+	</entry>
+
+	<!--####################### Main Menu related info  #######################-->
+
+	<entry>
+		<string>mainMenuNormal</string>
+		<map>
+			<entry>
+				<string>fileLocation</string>
+				<string>/files/images/mainMenu/mainMenuNormalClean.png</string>
+			</entry>
+		</map>
+	</entry> 
+	<entry>
+		<string>mainMenuHover</string>
+		<map>
+			<entry>
+				<string>fileLocation</string>
+				<string>/files/images/mainMenu/mainMenuHoverClean.png</string>
+			</entry>
+		</map>
+	</entry> 
+	<entry>
+		<string>mainMenuFocus</string>
+		<map>
+			<entry>
+				<string>fileLocation</string>
+				<string>/files/images/mainMenu/mainMenuFocusClean.png</string>
+			</entry>
+		</map>
+	</entry> 
+	
+	
+
+	<!--####################### Explosion test  #######################-->
+	<entry>
+		<string>explosionLarge</string>
+		<map>
+			<entry>
+				<string>fileLocation</string>
+				<string>/files/images/explosionSheet.png</string>
+			</entry>
+		</map>
+	</entry> 
+</map>

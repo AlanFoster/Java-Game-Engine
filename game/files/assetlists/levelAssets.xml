@@ -1,0 +1,132 @@
+<!-- 
+Stores the asset name, and any additional information it may wish
+to provide within a map. There is no data type specified within
+this page, as it is assumed that the same file location, and 
+additional information COULD be used for more than one type
+of resource. 
+
+
+NOTE :: When I have time i need to modify xstream to 'prettify'
+this xml, so that it doesn't say <map><entry> but instead
+<assetlist><asset> for instance
+
+Author Alan Foster
+Version 1.0
+see GameAssetManager
+-->
+<map>
+	<!--###################### Overlay images, as part of the WorldManager ##################################-->
+	<entry>
+		<string>pausedGameGradient</string>
+		<map>
+			<entry>
+				<string>fileLocation</string>
+				<string>/files/images/pausedScreen.png</string>
+			</entry>
+		</map>
+	</entry>
+	
+	<entry>
+		<string>playedDied</string>
+		<map>
+			<entry>
+				<string>fileLocation</string>
+				<string>/files/images/gameOverScreen.png</string>
+			</entry>
+		</map>
+	</entry>
+	
+	<!--###################### Tank construction images ##################################-->
+	<entry>
+		<string>player</string>
+		<map>
+			<entry>
+				<string>fileLocation</string>
+				<string>/files/images/oldTank.gif</string>
+			</entry>
+		</map>
+	</entry>
+
+	<entry>
+		<string>playerBarrel</string>
+		<map>
+			<entry>
+				<string>fileLocation</string>
+				<string>/files/images/player_barrel.gif</string>
+			</entry>
+		</map>
+	</entry>
+
+	<entry>
+		<string>enemy</string>
+		<map>
+			<entry>
+				<string>fileLocation</string>
+				<string>/files/images/enemy.gif</string>
+			</entry>
+		</map>
+	</entry>
+
+	<entry>
+		<string>artillery</string>
+		<map>
+			<entry>
+				<string>fileLocation</string>
+				<string>/files/images/artillery.png</string>
+			</entry>
+		</map>
+	</entry>
+
+	<!-- A green bubble which surrounds the player and fades in and out -->
+	<entry>
+		<string>animatedPlayerShield</string>
+		<map>
+			<entry>
+				<string>fileLocation</string>
+				<string>/files/images/shield_animated.png</string>
+			</entry>
+		</map>
+	</entry>
+	
+	<entry>
+		<string>enemyShield</string>
+		<map>
+			<entry>
+				<string>fileLocation</string>
+				<string>/files/images/enemyShield.png</string>
+			</entry>
+		</map>
+	</entry>
+	
+	
+	<!--###################### HUD Icons ##################################-->
+	<entry>
+		<string>healthHud</string>
+		<map>
+			<entry>
+				<string>fileLocation</string>
+				<string>/files/images/healthHud.png</string>
+			</entry>
+		</map>
+	</entry>
+	
+	<entry>
+		<string>scoreHud</string>
+		<map>
+			<entry>
+				<string>fileLocation</string>
+				<string>/files/images/scoreHud.png</string>
+			</entry>
+		</map>
+	</entry>
+	
+	<entry>
+		<string>shieldHud</string>
+		<map>
+			<entry>
+				<string>fileLocation</string>
+				<string>/files/images/shieldHud.png</string>
+			</entry>
+		</map>
+	</entry>
+</map>

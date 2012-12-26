@@ -1,0 +1,77 @@
+<!-- 
+Stores the asset name, and any additional information it may wish
+to provide within a map. There is no data type specified within
+this page, as it is assumed that the same file location, and 
+additional information COULD be used for more than one type
+of resource. 
+
+
+NOTE :: When I have time i need to modify xstream to 'prettify'
+this xml, so that it doesn't say <map><entry> but instead
+<assetlist><asset> for instance
+
+Author Alan Foster
+Version 1.0
+see GameAssetManager
+-->
+<map>
+	<entry>
+		<string>beep</string>
+		<map>
+			<entry>
+				<string>fileLocation</string>
+				<string>/files/sound/beepTone.wav</string>
+			</entry>
+		</map>
+	</entry>
+	
+	<entry>
+		<string>gameTrack</string>
+		<map>
+			<entry>
+				<string>fileLocation</string>
+				<string>/files/sound/gameTrack.wav</string>
+			</entry>
+		</map>
+	</entry>
+	
+	<entry>
+		<string>explosion01</string>
+		<map>
+			<entry>
+				<string>fileLocation</string>
+				<string>/files/sound/explosion01.wav</string>
+			</entry>
+		</map>
+	</entry>
+	
+	<entry>
+		<string>bomb03</string>
+		<map>
+			<entry>
+				<string>fileLocation</string>
+				<string>/files/sound/bomb03.wav</string>
+			</entry>
+		</map>
+	</entry>
+	
+	<entry>
+		<string>niceday</string>
+		<map>
+			<entry>
+				<string>fileLocation</string>
+				<string>/files/sound/niceday.wav</string>
+			</entry>
+		</map>
+	</entry>
+	
+	<entry>
+		<string>scars</string>
+		<map>
+			<entry>
+				<string>fileLocation</string>
+				<string>/files/sound/scars.wav</string>
+			</entry>
+		</map>
+	</entry>
+</map>

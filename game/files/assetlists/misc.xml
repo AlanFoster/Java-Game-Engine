@@ -1,0 +1,29 @@
+<!-- 
+Stores the asset name, and any additional information it may wish
+to provide within a map. There is no data type specified within
+this page, as it is assumed that the same file location, and 
+additional information COULD be used for more than one type
+of resource. 
+
+
+NOTE :: When I have time i need to modify xstream to 'prettify'
+this xml, so that it doesn't say <map><entry> but instead
+<assetlist><asset> for instance
+
+Author Alan Foster
+Version 1.0
+see GameAssetManager
+see assetListExamples.xml
+-->
+<map>
+	<!-- Used during the creation of particles -->
+	<entry>
+		<string>particle</string>
+		<map>
+			<entry>
+				<string>fileLocation</string>
+				<string>/files/images/particle.png</string>
+			</entry>
+		</map>
+	</entry>
+</map>

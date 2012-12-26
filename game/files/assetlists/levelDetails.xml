@@ -1,0 +1,10 @@
+<levelCollection>
+  <level>
+    <levelName>levelOne</levelName>
+    <levelDetails mapAssetName="levelOneMapDetails" enemyLocationAssetName="enemySpawnMap"/>
+  </level>
+  <level>
+    <levelName>levelTwo</levelName>
+    <levelDetails mapAssetName="someMapLocation" enemyLocationAssetName="someEnemyLocation"/>
+  </level>
+</levelCollection>

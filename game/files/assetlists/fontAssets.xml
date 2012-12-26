@@ -1,0 +1,116 @@
+<!-- 
+Stores the asset name, and any additional information it may wish
+to provide within a map. There is no data type specified within
+this page, as it is assumed that the same file location, and 
+additional information COULD be used for more than one type
+of resource. 
+
+
+NOTE :: When I have time i need to modify xstream to 'prettify'
+this xml, so that it doesn't say <map><entry> but instead
+<assetlist><asset> for instance
+
+Author Alan Foster
+Version 1.0
+see GameAssetManager
+see assetListExamples.xml
+-->
+<map>
+	<!--####################### Fonts  #######################-->
+	<entry>
+		<string>fontTest</string>
+		<map>
+			<entry>
+				<string>fileLocation</string>
+				<string>/files/images/newFontTransparent.png</string>
+			</entry>
+			<entry>
+				<string>availableChars</string>
+				<string>ABCDEFGHIJKLMNOPQRSTUVWXYZ
+				abcdefghijklmnopqrstuvwxyz
+				,&lt;.&gt;/?:;@'~#{[}]!"|$%^&amp;*()
+				1234567890</string>
+			</entry>
+			<entry>
+				<string>charSpacing</string>
+				<string>-3</string>
+			</entry>
+			
+			<!--
+				Example additional fields that are possible for fonts
+				<entry>
+					<string>charSpacing</string>
+					<string>50</string>
+				</entry>
+				<entry>
+					<string>verticalSpacing</string>
+					<string>100</string>
+				</entry>
+			-->
+		</map>
+	</entry> 
+	
+	<entry>
+		<string>fontTestWhite</string>
+		<map>
+			<entry>
+				<string>fileLocation</string>
+				<string>/files/images/transparentFontWhite.png</string>
+			</entry>
+			<entry>
+				<string>availableChars</string>
+				<string>ABCDEFGHIJKLMNOPQRSTUVWXYZ
+				abcdefghijklmnopqrstuvwxyz
+				,&lt;.&gt;/?:;@'~#{[}]!"|$%^&amp;*()
+				1234567890</string>
+			</entry>
+			<entry>
+				<string>charSpacing</string>
+				<string>-3</string>
+			</entry>
+		</map>
+	</entry>
+	
+	<!-- Used within the HUD display for both IHudItems and IHudable -->
+	<entry>
+		<string>hudFont</string>
+		<map>
+			<entry>
+				<string>fileLocation</string>
+				<string>/files/images/HUDFont.png</string>
+			</entry>
+			<entry>
+				<string>availableChars</string>
+				<string>ABCDEFGHIJKLMNOPQRSTUVWXYZ
+				abcdefghijklmnopqrstuvwxyz
+				,&lt;.&gt;/?:;@'~#{[}]!"|$%-&amp;*()
+				1234567890</string>
+			</entry>
+			<entry>
+				<string>charSpacing</string>
+				<string>-7</string>
+			</entry>
+		</map>
+	</entry>
+	
+	<!-- Used as the main count down
+	Note, although the character set is 0123, the images actually represent "Go!", "1", "2", "3" -->
+	<entry>
+		<string>HUDCountDown</string>
+		<map>
+			<entry>
+				<string>fileLocation</string>
+				<string>/files/images/HUDCountDown.png</string>
+			</entry>
+			<entry>
+				<string>availableChars</string>
+				<string>0123</string>
+			</entry>
+			<entry>
+				<string>charSpacing</string>
+				<string>-7</string>
+			</entry>
+		</map>
+	</entry>
+</map>
+	
